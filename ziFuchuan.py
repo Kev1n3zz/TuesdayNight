@@ -1,3 +1,5 @@
+# python中的增删查改
+
 # word = "字符串"
 # sentence = "这是一个段落"
 # paragraph = """
@@ -52,3 +54,14 @@ for name in namelist:
 nametemp = ["xiaoliu", "xiaoyu"]
 namelist.extend(nametemp)
 print(namelist)
+# 使用del可以删除数组中的任意内容
+# 改就是根据数组下标直接修改
+
+# 查询
+findName = input("请输入你的学生名称")
+if findName in namelist:
+    print("找到了相同的名称")
+else:
+    print("404")
+# 第二种查询方式，可以指定范围查询
+print(namelist.index("xiaozhang", 0, 4))
