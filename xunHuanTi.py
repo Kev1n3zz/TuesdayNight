@@ -15,4 +15,4 @@ while couter <= n:
     sum = sum +couter
     couter += 1
 
-print("计数结果为：", sum)
+print("1到%d计数结果为：%d" % (n, sum))
