@@ -63,5 +63,6 @@ if findName in namelist:
     print("找到了相同的名称")
 else:
     print("404")
-# 第二种查询方式，可以指定范围查询
-print(namelist.index("xiaozhang", 0, 4))
+# 第二种查询方式，可以指定范围查询,后面两个元素设置了查询范围
+# 出现两个一样的元素的时候会先报下标更小的元素
+print(namelist.index(findName, 0, 9))
