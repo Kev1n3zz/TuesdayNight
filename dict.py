@@ -45,3 +45,6 @@ for i, x in enumerate(mylist):
     print( "下标是：%d,对应的元素为：%s" % (i, x))
     # print("对应的元素为：%s" % x)
 
+# set集合 两个set可以做集合的一些操作
+s = set([1, 2, 3])
+print(s)
