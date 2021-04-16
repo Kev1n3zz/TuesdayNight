@@ -47,4 +47,4 @@ for i, x in enumerate(mylist):
 
 # set集合 两个set可以做集合的一些操作
 s = set([1, 2, 3])
-print(s)
+print(s) 
